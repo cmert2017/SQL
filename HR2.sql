@@ -57,7 +57,7 @@ select * from employees where manager_id is not null;
 
 select first_name,  upper(first_name), lower(first_name) from employees;
 
---change the column name of the quesry column
+--change the column name of the query column
 select first_name "Name" , salary "Money" from employees;
 select first_name as Name , salary as "Money" from employees;
 
